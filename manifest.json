@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Text Scraper",
+  "name": "Interview Igniter",
   "version": "1.0",
-  "description": "Scrapes selected text",
+  "description": "Generate Tailored Interview Questions from Job Descriptions",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"

@@ -8,7 +8,17 @@ function getSelectedText() {
     return text;
 }
 
+function getTextFromLinkedIn() {
+    const element = document.querySelector(".jobs-description__content.jobs-description-content");
+    return element ? element.textContent : '';
+}
+
+function getTextFromIndeed() {
+    const element = document.querySelector("#jobDescriptionText");
+    return element ? element.textContent : '';
+}
+
 chrome.runtime.sendMessage({
     action: "getSource",
-    source: getSelectedText()
+    source:  getSelectedText() || getTextFromLinkedIn() || getTextFromIndeed()
 });
