@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Interview Igniter</title>
+    <title>Interview Igniter — AI Companion</title>
     <style>
         body {
             width: 300px;
@@ -14,6 +14,11 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
         }
 
         #scrapeBtn {
@@ -35,7 +40,13 @@
 </head>
 
 <body>
+    <a href="https://interviewigniter.com" target="_blank">
+        <img src="https://interviewigniter.com/images/logo.png" alt="Interview Igniter Logo"
+            style="width: 200px; display: block; margin: 0 auto 20px;"></a>
+
+    <p>Go to LinkedIn or Indeed and search for the job you are interested in and click the button below.</p>
     <button id="scrapeBtn">Generate Job Interview</button>
+
     <script src="popup.js"></script>
 </body>
 

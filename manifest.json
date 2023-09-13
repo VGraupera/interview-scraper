@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Interview Igniter",
-  "version": "1.0",
+  "name": "Interview Igniter - Job Description to Interview Questions",
+  "version": "1.0.1",
   "description": "Generate Tailored Interview Questions from Job Descriptions",
   "permissions": ["activeTab", "scripting"],
   "background": {
